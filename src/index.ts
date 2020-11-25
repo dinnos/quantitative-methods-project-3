@@ -194,7 +194,7 @@ const writeFile = (faction: string, stages: StageData[]) => {
         const probability = probabilities[attacker];
         const defender = getDefender(attacker, probability);
 
-        const attackFaction = factions[attclacker].name;
+        const attackFaction = factions[attacker].name;
         const defenderFaction = factions[defender];
         defenderFaction.warriors--;
 
